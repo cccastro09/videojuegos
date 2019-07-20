@@ -84,7 +84,10 @@ public class Player : MonoBehaviour
             anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             
-
+        }else if(collision.gameObject.tag == "Enemy")
+        {
+            anim.SetBool("isDead", true);
+            StartCoroutine(Esperar());
         }
        
     }
