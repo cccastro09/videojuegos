@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public Transform trans;
     public Rigidbody2D body;
     public Animator anim;
+    public GameObject[] vidas;
 
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2f;
     public float walkingSpeed;
     public float jumpSpeed;
+    private int nvidas = 3;
 
     private void Awake()
     {
@@ -21,10 +24,13 @@ public class Player : MonoBehaviour
         
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-
+        /*foreach(GameObject r in vidas)
+        {
+            r.SetActive(true);
+        }*/
+        ActualizaVida(nvidas);
     }
 
     // Update is called once per frame
@@ -88,6 +94,8 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
+            nvidas -= 1;
+            ActualizaVida(nvidas);
         }
        
     }
@@ -97,4 +105,21 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(1.0f);
         anim.SetBool("isDead", false);
     }
+
+    private void ActualizaVida(int n)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if(i < n)
+            {
+                vidas[i].SetActive(true);
+            }else
+            {
+                vidas[i].SetActive(false);
+            }
+            
+        }
+        
+    }
+
 }
