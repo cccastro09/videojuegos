@@ -7,6 +7,7 @@ public class EvilPick : MonoBehaviour
 {
     private bool picked = false;
     public Text puntaje;
+    public AudioSource collide_bad;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -17,5 +18,6 @@ public class EvilPick : MonoBehaviour
         int.TryParse(puntaje.text, out x);
         x -= 70;
         puntaje.text = x.ToString();
+        collide_bad.Play();
     }
 }

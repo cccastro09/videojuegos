@@ -7,6 +7,7 @@ public class Pick : MonoBehaviour
 {
     private bool picked = false;
     public Text puntaje;
+    public AudioSource picked_a;
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,5 +17,6 @@ public class Pick : MonoBehaviour
         int.TryParse(puntaje.text, out x);
         x += 100;
         puntaje.text = x.ToString();
+        picked_a.Play();
     }
 }

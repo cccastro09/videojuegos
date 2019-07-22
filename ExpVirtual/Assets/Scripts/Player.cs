@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     public float jumpSpeed;
     private int nvidas = 3;
 
+    public AudioSource jump;
+
     private void Awake()
     {
         trans = this.transform;
@@ -40,6 +42,7 @@ public class Player : MonoBehaviour
         { // y-axis movement
             body.velocity += jumpSpeed * Vector2.up;
             anim.SetBool("isJump", true);
+            jump.Play();
             
         }
 
