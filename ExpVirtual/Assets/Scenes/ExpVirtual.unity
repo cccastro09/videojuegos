@@ -4196,6 +4196,9 @@ MonoBehaviour:
   lowJumpMultiplier: 2
   walkingSpeed: 4
   jumpSpeed: 10
+  puntaje: {fileID: 1163539406}
+  panel: {fileID: 227439112}
+  score: {fileID: 1747827864}
   jump: {fileID: 1382004760}
 --- !u!95 &800418163
 Animator:

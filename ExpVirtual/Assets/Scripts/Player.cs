@@ -14,7 +14,11 @@ public class Player : MonoBehaviour
     public float lowJumpMultiplier = 2f;
     public float walkingSpeed;
     public float jumpSpeed;
-    private int nvidas = 3;
+    private int nvidas = 5;
+
+    public Text puntaje;
+    public GameObject panel;
+    public Text score;
 
     public AudioSource jump;
 
@@ -28,10 +32,6 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        /*foreach(GameObject r in vidas)
-        {
-            r.SetActive(true);
-        }*/
         ActualizaVida(nvidas);
     }
 
@@ -83,6 +83,14 @@ public class Player : MonoBehaviour
             anim.SetFloat("Speed", Mathf.Abs(speed));
             
         }
+        if(nvidas <= 0)
+        {
+            score.text = puntaje.text;
+            panel.SetActive(true);
+            Debug.Log("fin del juego");
+            Time.timeScale = 0f;
+
+        }
 
     }
 
@@ -111,7 +119,7 @@ public class Player : MonoBehaviour
 
     private void ActualizaVida(int n)
     {
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 5; i++)
         {
             if(i < n)
             {
