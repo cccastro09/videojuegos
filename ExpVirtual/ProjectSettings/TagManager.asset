@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Evil
   - Enemy
+  - Limit
   layers:
   - Default
   - TransparentFX
