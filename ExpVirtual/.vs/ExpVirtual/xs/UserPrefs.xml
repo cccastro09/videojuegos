@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{B7566D18-29E0-DB38-D551-1E1F590D0C62}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Menu.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="45" Column="25" />
       <File FileName="Assets/Scripts/Pick.cs" Line="20" Column="25" />
       <File FileName="Assets/Scripts/EvilPick.cs" Line="21" Column="28" />
       <File FileName="Assets/Scripts/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Menu.cs" Line="7" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
