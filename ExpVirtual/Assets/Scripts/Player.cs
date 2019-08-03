@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     public Rigidbody2D body;
     public Animator anim;
     public GameObject[] vidas;
+    public GameObject laser;
+    public float offsetX = 0f;
+    public float offsetY = 0f;
 
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2f;
@@ -92,6 +95,31 @@ public class Player : MonoBehaviour
 
         }
 
+    }
+
+    private void LateUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            if (body.velocity.x < 0.01)
+            {
+                anim.SetTrigger("Stand");
+                //Shooting();
+            }
+            else
+            {
+                anim.SetTrigger("Shoot");
+                Shooting();
+            }
+
+
+        }
+    }
+
+    private void Shooting()
+    {
+        GameObject ls = Instantiate(laser, transform.position, Quaternion.identity);
+        ls.transform.position += new Vector3(offsetX, offsetY, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

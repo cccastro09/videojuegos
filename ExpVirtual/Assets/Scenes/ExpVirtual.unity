@@ -4192,6 +4192,9 @@ MonoBehaviour:
   - {fileID: 616466268}
   - {fileID: 1393440109}
   - {fileID: 771509413}
+  laser: {fileID: 6734568337315232999, guid: 5b3387c0488f52a488294d10f5a5c0b5, type: 3}
+  offsetX: 0.2
+  offsetY: -0.25
   fallMultiplier: 2.5
   lowJumpMultiplier: 2
   walkingSpeed: 4
