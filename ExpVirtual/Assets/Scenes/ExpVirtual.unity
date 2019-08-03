@@ -733,7 +733,7 @@ GameObject:
   - component: {fileID: 207038501}
   m_Layer: 0
   m_Name: EnemyBlue
-  m_TagString: Evil
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2886,7 +2886,7 @@ GameObject:
   - component: {fileID: 527403467}
   m_Layer: 0
   m_Name: EnemyBlue (3)
-  m_TagString: Evil
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5793,7 +5793,7 @@ GameObject:
   - component: {fileID: 881621420}
   m_Layer: 0
   m_Name: EnemyBlue (1)
-  m_TagString: Evil
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9537,7 +9537,7 @@ GameObject:
   - component: {fileID: 1479929785}
   m_Layer: 0
   m_Name: EnemyBlue (2)
-  m_TagString: Evil
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

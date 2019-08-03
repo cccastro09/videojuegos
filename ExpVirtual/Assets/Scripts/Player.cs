@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     public Text score;
 
     public AudioSource jump;
+    public static bool right = true;
 
     private void Awake()
     {
@@ -64,10 +65,12 @@ public class Player : MonoBehaviour
             if (Input.GetKey(KeyCode.A))
             {
                 speed += -walkingSpeed;
+                right = false;
             }
             if (Input.GetKey(KeyCode.D))
             {
                 speed += walkingSpeed;
+                right = true;
             }
             v.x = speed;
             body.velocity = v;
@@ -101,10 +104,9 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            if (body.velocity.x < 0.01)
+            if (body.velocity.x < 0.01 && body.velocity.x > -0.01)
             {
                 anim.SetTrigger("Stand");
-                //Shooting();
             }
             else
             {
@@ -136,7 +138,14 @@ public class Player : MonoBehaviour
             nvidas -= 1;
             ActualizaVida(nvidas);
         }
-       
+        else if (collision.gameObject.tag == "Alien")
+        {
+            anim.SetBool("isDead", true);
+            StartCoroutine(Esperar());
+            nvidas -= 1;
+            ActualizaVida(nvidas);
+        }
+
     }
 
     IEnumerator Esperar()

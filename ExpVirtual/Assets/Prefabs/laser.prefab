@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6734568337315232998}
   - component: {fileID: 6734568337315233001}
   - component: {fileID: 6734568337315233000}
+  - component: {fileID: 1779832938617262974}
   m_Layer: 0
   m_Name: laser
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,3 +94,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedLaser: 10
+--- !u!58 &1779832938617262974
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6734568337315232999}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.15, y: -0.07}
+  serializedVersion: 2
+  m_Radius: 0.3
