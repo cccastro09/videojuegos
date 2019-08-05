@@ -9,6 +9,9 @@ TagManager:
   - Limit
   - Alien
   - Laser
+  - limitBoss
+  - boss
+  - limitBosslimit
   layers:
   - Default
   - TransparentFX

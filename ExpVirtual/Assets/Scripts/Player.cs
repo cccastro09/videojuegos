@@ -19,6 +19,9 @@ public class Player : MonoBehaviour
     public float jumpSpeed;
     private int nvidas = 5;
 
+    public GameObject tronco;
+    public GameObject tronco2;
+
     public Text puntaje;
     public GameObject panel;
     public Text score;
@@ -144,6 +147,11 @@ public class Player : MonoBehaviour
             StartCoroutine(Esperar());
             nvidas -= 1;
             ActualizaVida(nvidas);
+        }
+        else if (collision.gameObject.tag == "limitBosslimit")
+        {
+            tronco.SetActive(true);
+            tronco2.SetActive(true);
         }
 
     }
