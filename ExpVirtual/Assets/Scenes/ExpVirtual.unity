@@ -1344,7 +1344,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &245795314
 Animator:
   serializedVersion: 3
@@ -1832,7 +1832,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &339084875
 Animator:
   serializedVersion: 3
@@ -2265,7 +2265,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &394362812
 Animator:
   serializedVersion: 3
@@ -3463,7 +3463,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &573591448
 Animator:
   serializedVersion: 3
@@ -3810,7 +3810,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &630547581
 Animator:
   serializedVersion: 3
@@ -4253,7 +4253,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &697452224
 Animator:
   serializedVersion: 3
@@ -6439,7 +6439,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &905262654
 Animator:
   serializedVersion: 3
@@ -7296,7 +7296,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &1027136951
 Animator:
   serializedVersion: 3
@@ -9008,7 +9008,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &1361765934
 Animator:
   serializedVersion: 3
@@ -9830,7 +9830,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &1469012846
 Animator:
   serializedVersion: 3
@@ -13725,7 +13725,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &1808233530
 Animator:
   serializedVersion: 3
@@ -13996,7 +13996,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &1932520456
 Animator:
   serializedVersion: 3
@@ -14183,7 +14183,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!114 &1967378754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14264,7 +14264,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.009475708, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8341522
+  m_Radius: 1.4
 --- !u!95 &1977068478
 Animator:
   serializedVersion: 3
@@ -14594,7 +14594,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.4
 --- !u!95 &2043858852
 Animator:
   serializedVersion: 3
