@@ -12,6 +12,7 @@ TagManager:
   - limitBoss
   - boss
   - limitBosslimit
+  - live
   layers:
   - Default
   - TransparentFX

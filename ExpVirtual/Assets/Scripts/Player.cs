@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
         ActualizaVida(nvidas);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -152,6 +152,11 @@ public class Player : MonoBehaviour
         {
             tronco.SetActive(true);
             tronco2.SetActive(true);
+        }
+        else if (collision.gameObject.tag == "live")
+        {
+            nvidas += 1;
+            ActualizaVida(nvidas);
         }
 
     }
