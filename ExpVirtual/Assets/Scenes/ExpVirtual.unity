@@ -2601,7 +2601,7 @@ GameObject:
   - component: {fileID: 476850908}
   - component: {fileID: 476850907}
   m_Layer: 0
-  m_Name: collideEnemy (10)
+  m_Name: collideEnemy(10)
   m_TagString: limitBosslimit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8511,6 +8511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.3
   movingRight: 1
+  bad: {fileID: 735743313}
   nvidas: 3
 --- !u!61 &1211736680
 BoxCollider2D:
@@ -10881,7 +10882,7 @@ GameObject:
   - component: {fileID: 1589205912}
   - component: {fileID: 1589205911}
   m_Layer: 0
-  m_Name: limitboss (1)
+  m_Name: limitboss2
   m_TagString: limitBoss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

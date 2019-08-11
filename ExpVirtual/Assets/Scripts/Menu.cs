@@ -36,8 +36,9 @@ public class Menu : MonoBehaviour
     void pause()
     {
         MenuPause.SetActive(true);
-        Time.timeScale = 0f;
+       
         GameIsPause = true;
+        Time.timeScale = 0f;
     }
 
     public void reiniciar()
@@ -49,6 +50,7 @@ public class Menu : MonoBehaviour
 
     public void salir()
     {
-        Application.Quit();
+        //Application.Quit();
+        SceneManager.LoadScene("Inicio");
     }
 }
