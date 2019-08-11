@@ -8,9 +8,9 @@ public class BossMain : MonoBehaviour
     public bool movingRight = true;
     // public GameObject tronco;
     //public GameObject tronco2;
-    // public AudioSource bad;
+    public AudioSource bad;
 
-    public int nvidas = 2;
+    public int nvidas = 3;
 
     // Update is called once per frame
     void Update()
@@ -57,7 +57,8 @@ public class BossMain : MonoBehaviour
         {
             if (collision.gameObject.tag == "Player")
             {
-              //  bad.Play();
+                //  bad.Play();
+                bad.Play();
 
             }
         }

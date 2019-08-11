@@ -6,7 +6,9 @@ public class Laser : MonoBehaviour
 {
     public float SpeedLaser = 5.0f;
     private bool right = false;
-    public GameObject boss;
+    public GameObject boss,t1,t2,collideEnemy;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,7 @@ public class Laser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         boss = GameObject.Find("MainBoss");
         if (right)
         {
@@ -48,6 +51,12 @@ public class Laser : MonoBehaviour
             if (boss.GetComponent<BossMain>().nvidas == 0)
             {
                 Destroy(boss);
+                t1 = GameObject.Find("limitboss");
+                t2 = GameObject.Find("limitboss2");
+                collideEnemy = GameObject.Find("collideEnemy(10)");
+                Destroy(t1);
+                Destroy(t2);
+                Destroy(collideEnemy);
             }
             else
             {

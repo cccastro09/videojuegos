@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
 
     public GameObject tronco;
     public GameObject tronco2;
+    public GameObject BossMain;
 
     public Text puntaje;
     public GameObject panel;
@@ -141,6 +142,13 @@ public class Player : MonoBehaviour
             nvidas -= 1;
             ActualizaVida(nvidas);
         }
+        else if (collision.gameObject.tag == "boss")
+        {
+            anim.SetBool("isDead", true);
+            StartCoroutine(Esperar());
+            nvidas -= 1;
+            ActualizaVida(nvidas);
+        }
         else if (collision.gameObject.tag == "Alien")
         {
             anim.SetBool("isDead", true);
@@ -152,6 +160,7 @@ public class Player : MonoBehaviour
         {
             tronco.SetActive(true);
             tronco2.SetActive(true);
+            BossMain.SetActive(true);
         }
         else if (collision.gameObject.tag == "live")
         {
