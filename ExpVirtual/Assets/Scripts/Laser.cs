@@ -42,6 +42,11 @@ public class Laser : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Destroy(this.gameObject);
+        }
+
         if (collision.gameObject.tag == "boss")
         {
             Debug.Log("ImpactoBoss");

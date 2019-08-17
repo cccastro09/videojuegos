@@ -1292,6 +1292,7 @@ GameObject:
   - component: {fileID: 245795314}
   - component: {fileID: 245795313}
   - component: {fileID: 245795312}
+  - component: {fileID: 245795316}
   m_Layer: 0
   m_Name: enemy (10)
   m_TagString: Enemy
@@ -1413,6 +1414,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &245795316
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245795310}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &307849762
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,6 +1802,7 @@ GameObject:
   - component: {fileID: 339084875}
   - component: {fileID: 339084874}
   - component: {fileID: 339084873}
+  - component: {fileID: 339084877}
   m_Layer: 0
   m_Name: enemy (8)
   m_TagString: Enemy
@@ -1901,6 +1924,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &339084877
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339084871}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &357911345
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,6 +2259,7 @@ GameObject:
   - component: {fileID: 394362812}
   - component: {fileID: 394362811}
   - component: {fileID: 394362810}
+  - component: {fileID: 394362814}
   m_Layer: 0
   m_Name: enemy (6)
   m_TagString: Enemy
@@ -2336,6 +2381,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &394362814
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394362808}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &406147035
 GameObject:
   m_ObjectHideFlags: 0
@@ -3413,6 +3479,7 @@ GameObject:
   - component: {fileID: 573591448}
   - component: {fileID: 573591447}
   - component: {fileID: 573591446}
+  - component: {fileID: 573591450}
   m_Layer: 0
   m_Name: enemy (12)
   m_TagString: Enemy
@@ -3534,6 +3601,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &573591450
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573591444}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &588226617
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,6 +3848,7 @@ GameObject:
   - component: {fileID: 630547581}
   - component: {fileID: 630547580}
   - component: {fileID: 630547579}
+  - component: {fileID: 630547583}
   m_Layer: 0
   m_Name: enemy (5)
   m_TagString: Enemy
@@ -3881,6 +3970,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &630547583
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630547577}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &633915195
 GameObject:
   m_ObjectHideFlags: 0
@@ -4203,6 +4313,7 @@ GameObject:
   - component: {fileID: 697452224}
   - component: {fileID: 697452223}
   - component: {fileID: 697452222}
+  - component: {fileID: 697452226}
   m_Layer: 0
   m_Name: enemy (2)
   m_TagString: Enemy
@@ -4324,6 +4435,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &697452226
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697452220}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &708344600
 GameObject:
   m_ObjectHideFlags: 0
@@ -6499,6 +6631,7 @@ GameObject:
   - component: {fileID: 905262654}
   - component: {fileID: 905262653}
   - component: {fileID: 905262652}
+  - component: {fileID: 905262656}
   m_Layer: 0
   m_Name: enemy (14)
   m_TagString: Enemy
@@ -6620,6 +6753,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &905262656
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905262650}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &909838267
 GameObject:
   m_ObjectHideFlags: 0
@@ -7356,6 +7510,7 @@ GameObject:
   - component: {fileID: 1027136951}
   - component: {fileID: 1027136950}
   - component: {fileID: 1027136949}
+  - component: {fileID: 1027136953}
   m_Layer: 0
   m_Name: enemy (4)
   m_TagString: Enemy
@@ -7477,6 +7632,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1027136953
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027136947}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1061208380
 GameObject:
   m_ObjectHideFlags: 0
@@ -9069,6 +9245,7 @@ GameObject:
   - component: {fileID: 1361765934}
   - component: {fileID: 1361765933}
   - component: {fileID: 1361765932}
+  - component: {fileID: 1361765936}
   m_Layer: 0
   m_Name: enemy (9)
   m_TagString: Enemy
@@ -9190,6 +9367,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1361765936
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361765930}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1382004759
 GameObject:
   m_ObjectHideFlags: 0
@@ -9891,6 +10089,7 @@ GameObject:
   - component: {fileID: 1469012846}
   - component: {fileID: 1469012845}
   - component: {fileID: 1469012844}
+  - component: {fileID: 1469012848}
   m_Layer: 0
   m_Name: enemy (11)
   m_TagString: Enemy
@@ -10012,6 +10211,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1469012848
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469012842}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1471921703
 GameObject:
   m_ObjectHideFlags: 0
@@ -13786,6 +14006,7 @@ GameObject:
   - component: {fileID: 1808233530}
   - component: {fileID: 1808233529}
   - component: {fileID: 1808233528}
+  - component: {fileID: 1808233532}
   m_Layer: 0
   m_Name: enemy (1)
   m_TagString: Enemy
@@ -13907,6 +14128,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1808233532
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808233526}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1866248724
 GameObject:
   m_ObjectHideFlags: 0
@@ -14057,6 +14299,7 @@ GameObject:
   - component: {fileID: 1932520456}
   - component: {fileID: 1932520455}
   - component: {fileID: 1932520454}
+  - component: {fileID: 1932520458}
   m_Layer: 0
   m_Name: enemy (7)
   m_TagString: Enemy
@@ -14178,6 +14421,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1932520458
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932520452}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1967378749
 GameObject:
   m_ObjectHideFlags: 0
@@ -14191,6 +14455,7 @@ GameObject:
   - component: {fileID: 1967378751}
   - component: {fileID: 1967378753}
   - component: {fileID: 1967378754}
+  - component: {fileID: 1967378755}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Enemy
@@ -14312,6 +14577,27 @@ MonoBehaviour:
   machine_bad: {fileID: 834317519}
   target: {fileID: 1592768275}
   speed: 1
+--- !u!50 &1967378755
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967378749}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1977068474
 GameObject:
   m_ObjectHideFlags: 0
@@ -14325,6 +14611,7 @@ GameObject:
   - component: {fileID: 1977068478}
   - component: {fileID: 1977068477}
   - component: {fileID: 1977068476}
+  - component: {fileID: 1977068480}
   m_Layer: 0
   m_Name: enemy (13)
   m_TagString: Enemy
@@ -14446,6 +14733,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1977068480
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977068474}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1991266578
 GameObject:
   m_ObjectHideFlags: 0
@@ -14655,6 +14963,7 @@ GameObject:
   - component: {fileID: 2043858852}
   - component: {fileID: 2043858851}
   - component: {fileID: 2043858850}
+  - component: {fileID: 2043858854}
   m_Layer: 0
   m_Name: enemy (3)
   m_TagString: Enemy
@@ -14776,6 +15085,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &2043858854
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043858848}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2046250259
 GameObject:
   m_ObjectHideFlags: 0
