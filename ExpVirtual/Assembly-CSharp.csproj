@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\behaviorBossMain.cs" />
+    <Compile Include="Assets\fin.cs" />
     <Compile Include="Assets\Scripts\BossMain.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
