@@ -50,10 +50,9 @@ public class Laser : MonoBehaviour
         if (collision.gameObject.tag == "boss")
         {
             Debug.Log("ImpactoBoss");
-            //Destroy(collision.gameObject);
-            // Destroy(gameObject);
-           // boss.GetComponent<BossMain>().restar();
+            Destroy(this.gameObject);
             if (boss.GetComponent<BossMain>().nvidas == 0)
+
             {
                 Destroy(boss);
                 t1 = GameObject.Find("limitboss");
@@ -62,6 +61,7 @@ public class Laser : MonoBehaviour
                 Destroy(t1);
                 Destroy(t2);
                 Destroy(collideEnemy);
+
             }
             else
             {

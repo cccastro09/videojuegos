@@ -1,16 +1,14 @@
 ﻿<Properties StartupConfiguration="{B7566D18-29E0-DB38-D551-1E1F590D0C62}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Menu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Laser.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="145" Column="53" />
+      <File FileName="Assets/Scripts/Player.cs" Line="155" Column="39" />
       <File FileName="Assets/Scripts/Pick.cs" Line="20" Column="25" />
       <File FileName="Assets/Scripts/EvilPick.cs" Line="21" Column="28" />
       <File FileName="Assets/Scripts/Enemy.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/EnemyAlive.cs" Line="27" Column="1" />
-      <File FileName="Assets/Scripts/BossMain.cs" Line="61" Column="17" />
+      <File FileName="Assets/Scripts/BossMain.cs" Line="15" Column="27" />
       <File FileName="Assets/behaviorBossMain.cs" Line="32" Column="45" />
-      <File FileName="Assets/Laser.cs" Line="59" Column="39" />
-      <File FileName="Assets/Scripts/Inicio.cs" Line="22" Column="43" />
-      <File FileName="Assets/Scripts/Menu.cs" Line="52" Column="11" />
+      <File FileName="Assets/Scripts/Laser.cs" Line="64" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

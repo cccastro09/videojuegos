@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossMain : MonoBehaviour
 {
@@ -9,8 +10,15 @@ public class BossMain : MonoBehaviour
     // public GameObject tronco;
     //public GameObject tronco2;
     public AudioSource bad;
+    public Animator anim;
 
-    public int nvidas = 3;
+    public int nvidas;
+
+    public void Awake()
+    {
+        anim = this.GetComponent<Animator>();
+        nvidas = 8;
+    }
 
     // Update is called once per frame
     void Update()
@@ -63,10 +71,26 @@ public class BossMain : MonoBehaviour
             }
         }
 
+        {
+            if (collision.gameObject.tag == "Laser")
+            {
+                //  bad.Play();
+                anim.SetBool("isDead", true);
+                StartCoroutine(Esperar());
+
+            }
+        }
+
     }
    public void restar()
     {
-        nvidas -= 1;
-        Debug.Log("vida restada");
+        nvidas = nvidas - 1;
+        Debug.Log("vida restada" + nvidas);
+    }
+
+    IEnumerator Esperar()
+    {
+        yield return new WaitForSeconds(0.2f);
+        anim.SetBool("isDead", false);
     }
 }
