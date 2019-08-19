@@ -11,6 +11,9 @@ public class BossMain : MonoBehaviour
     //public GameObject tronco2;
     public AudioSource bad;
     public Animator anim;
+    public Slider health;
+
+    public GameObject slider;
 
     public int nvidas;
 
@@ -18,12 +21,13 @@ public class BossMain : MonoBehaviour
     {
         anim = this.GetComponent<Animator>();
         nvidas = 8;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        health.value = nvidas;
         if (movingRight)
         {
             transform.Translate(-1 * Time.deltaTime * speed, 0, 0);
@@ -34,6 +38,8 @@ public class BossMain : MonoBehaviour
             transform.Translate(1 * Time.deltaTime * speed, 0, 0);
             transform.localScale = new Vector2(-1, 1);
         }
+
+
 
     }
 
@@ -86,6 +92,11 @@ public class BossMain : MonoBehaviour
     {
         nvidas = nvidas - 1;
         Debug.Log("vida restada" + nvidas);
+    }
+
+    public void hideSlider()
+    {
+        slider.SetActive(false);
     }
 
     IEnumerator Esperar()

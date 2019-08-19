@@ -61,6 +61,7 @@ public class Laser : MonoBehaviour
                 Destroy(t1);
                 Destroy(t2);
                 Destroy(collideEnemy);
+                boss.GetComponent<BossMain>().hideSlider();
 
             }
             else

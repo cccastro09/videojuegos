@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     public GameObject tronco;
     public GameObject tronco2;
     public GameObject BossMain;
+    public GameObject slider;
 
     public Text puntaje;
     public GameObject panel;
@@ -161,6 +162,7 @@ public class Player : MonoBehaviour
             tronco.SetActive(true);
             tronco2.SetActive(true);
             BossMain.SetActive(true);
+            slider.SetActive(true);
         }
         else if (collision.gameObject.tag == "live")
         {
