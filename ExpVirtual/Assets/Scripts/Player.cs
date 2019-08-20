@@ -17,11 +17,12 @@ public class Player : MonoBehaviour
     public float lowJumpMultiplier = 2f;
     public float walkingSpeed;
     public float jumpSpeed;
-    private int nvidas = 5;
+    private int nvidas = 4;
 
     public GameObject tronco;
     public GameObject tronco2;
     public GameObject BossMain;
+    public GameObject slider;
 
     public Text puntaje;
     public GameObject panel;
@@ -161,6 +162,7 @@ public class Player : MonoBehaviour
             tronco.SetActive(true);
             tronco2.SetActive(true);
             BossMain.SetActive(true);
+            slider.SetActive(true);
         }
         else if (collision.gameObject.tag == "live")
         {
