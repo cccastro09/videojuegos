@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     public float lowJumpMultiplier = 2f;
     public float walkingSpeed;
     public float jumpSpeed;
-    private int nvidas = 4;
+    private int nvidas = 5;
 
     public GameObject tronco;
     public GameObject tronco2;
