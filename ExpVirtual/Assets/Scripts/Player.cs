@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
 
     public Text puntaje;
     public GameObject panel;
+    public GameObject panelReiniciar;
     public Text score;
 
     public AudioSource jump;
@@ -98,8 +99,9 @@ public class Player : MonoBehaviour
         {
             score.text = puntaje.text;
             panel.SetActive(true);
-            Debug.Log("fin del juego");
+            //Debug.Log("fin del juego");
             Time.timeScale = 0f;
+            panelReiniciar.SetActive(true);
 
         }
 

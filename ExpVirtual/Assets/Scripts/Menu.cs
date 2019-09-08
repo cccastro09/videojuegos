@@ -43,7 +43,7 @@ public class Menu : MonoBehaviour
 
     public void reiniciar()
     {
-        SceneManager.LoadScene("ExpVirtual");
+        SceneManager.LoadScene("Nivel2");
         GameIsPause = false;
         Time.timeScale = 1f;
     }

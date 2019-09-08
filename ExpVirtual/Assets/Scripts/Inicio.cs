@@ -19,7 +19,7 @@ public class Inicio : MonoBehaviour
 
 public void iniciar()
     {
-        SceneManager.LoadScene("ExpVirtual");
+        SceneManager.LoadScene("Nivel2");
         Time.timeScale = 1f;
     }
-}Para disparar Q y para saltar
+}
