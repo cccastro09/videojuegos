@@ -136,26 +136,26 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Evil")
         {
-           // anim.SetBool("isDead", true);
+            anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             
         }else if(collision.gameObject.tag == "Enemy")
         {
-           // anim.SetBool("isDead", true);
+            anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             nvidas -= 1;
             ActualizaVida(nvidas);
         }
         else if (collision.gameObject.tag == "boss")
         {
-           // anim.SetBool("isDead", true);
+            anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             nvidas -= 1;
             ActualizaVida(nvidas);
         }
         else if (collision.gameObject.tag == "Alien")
         {
-           // anim.SetBool("isDead", true);
+            anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             nvidas -= 1;
             ActualizaVida(nvidas);
