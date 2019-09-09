@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Pick.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\video.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Cesar/Desktop/Game/videojuegos/ExpVirtual/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

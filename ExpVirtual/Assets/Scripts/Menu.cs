@@ -44,8 +44,9 @@ public class Menu : MonoBehaviour
     public void reiniciar()
     {
         SceneManager.LoadScene("Nivel2");
-        GameIsPause = false;
         Time.timeScale = 1f;
+        GameIsPause = false;
+        
     }
 
     public void salir()

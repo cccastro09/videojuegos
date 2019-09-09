@@ -19,7 +19,7 @@ public class intro : MonoBehaviour
     
     public void reiniciar()
     {
-        SceneManager.LoadScene("ExpVirtual");
-        Time.timeScale = 1f;
+        //SceneManager.LoadScene("ExpVirtual");
+        
     }
 }

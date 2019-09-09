@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -100,8 +101,8 @@ public class Player : MonoBehaviour
             score.text = puntaje.text;
             panel.SetActive(true);
             //Debug.Log("fin del juego");
-            Time.timeScale = 0f;
             panelReiniciar.SetActive(true);
+            Time.timeScale = 0f;
 
         }
 
@@ -135,26 +136,26 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Evil")
         {
-            anim.SetBool("isDead", true);
+           // anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             
         }else if(collision.gameObject.tag == "Enemy")
         {
-            anim.SetBool("isDead", true);
+           // anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             nvidas -= 1;
             ActualizaVida(nvidas);
         }
         else if (collision.gameObject.tag == "boss")
         {
-            anim.SetBool("isDead", true);
+           // anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             nvidas -= 1;
             ActualizaVida(nvidas);
         }
         else if (collision.gameObject.tag == "Alien")
         {
-            anim.SetBool("isDead", true);
+           // anim.SetBool("isDead", true);
             StartCoroutine(Esperar());
             nvidas -= 1;
             ActualizaVida(nvidas);
@@ -196,4 +197,13 @@ public class Player : MonoBehaviour
         
     }
 
+    public void reiniciar()
+    {
+        nvidas = 5;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Nivel2");
+        
+        
+
+    }
 }

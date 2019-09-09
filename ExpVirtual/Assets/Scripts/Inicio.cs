@@ -19,7 +19,7 @@ public class Inicio : MonoBehaviour
 
 public void iniciar()
     {
-        SceneManager.LoadScene("Nivel2");
+        SceneManager.LoadScene("VideoIntro");
         Time.timeScale = 1f;
     }
 }
